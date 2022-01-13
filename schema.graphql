@@ -6,3 +6,9 @@ type StakingReward @entity{
   blockHeight: Int!
 }
 
+type SumReward @entity{
+  id: ID! # AccountId
+  totalReward: BigInt!
+  blockheight: Int!
+}
+
